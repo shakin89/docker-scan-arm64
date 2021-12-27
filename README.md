@@ -3,6 +3,8 @@ Docker scan binaries for debian 11 arm64 (raspberry-pi 4).
 
 Here you will find binaries for docker-scan compiled on a Debian 11 arm64 for raspberry pi 4.
 
+Download the pre-built binary and put it in ~/.docker/cli-plugin/ directory.
+
 If you want to build on your own you can follow the instructions.
 
 ## Build on your own
