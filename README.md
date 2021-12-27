@@ -18,15 +18,19 @@ Unzip/Untar the archive
 `cd scan-cli-plugin-0.16.0`
 
 Pull missing images
+
 `docker pull docker/dockerfile:experimental`
 
 `docker pull golang:1.17.5`
 
 Install make
+
 `sudo apt-get install make`
 
 And build
+
 `make build`
 
 Copy the built binary to docker plugin dir.
+
 `cp bin/* ~/.docker/cli-plugin/`
